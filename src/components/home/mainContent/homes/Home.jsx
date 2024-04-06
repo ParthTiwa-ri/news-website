@@ -1,10 +1,10 @@
 import React from "react";
-import Discover from "../../discover/Discover";
+
 import Side from "../../sideContent/side/Side";
-import Life from "../comment/Life";
-import Music from "../Sponsored/Sponsored";
-import Popular from "../All_News/Popular";
-import Ppost from "../NewsFeature/Ppost";
+import Comment from "../comment/Comment";
+import Sponsored from "../Sponsored/Sponsored";
+import AllNews from "../All_News/AllNews";
+import NewsFeature from "../NewsFeature/NewsFeature";
 import "./style.css";
 
 const Homes = () => {
@@ -13,10 +13,10 @@ const Homes = () => {
       <main>
         <div className="container">
           <section className="mainContent">
-            <Ppost />
-            <Life />
-            <Music />
-            <Popular />
+            <NewsFeature />
+            <Comment />
+            <Sponsored />
+            <AllNews />
           </section>
           <section className="sideContent">
             <Side />

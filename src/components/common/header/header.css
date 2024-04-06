@@ -13,7 +13,7 @@ header li {
   transition: 0.5s;
 }
 header li:hover {
-  color: crimson;
+  color: var(--bg-aqi-5);
   cursor: pointer;
 }
 #paddingCustom {

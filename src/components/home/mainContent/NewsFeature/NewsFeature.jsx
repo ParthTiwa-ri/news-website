@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { ppost } from "../../../../dummyData";
 import Heading from "../../../common/heading/Heading";
-import "./ppost.css";
+import "./NewsFeature.css";
 
 // copy same code of popular
 const Ppost = () => {

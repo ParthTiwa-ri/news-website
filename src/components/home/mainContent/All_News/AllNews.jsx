@@ -1,51 +1,61 @@
 import React from "react";
+import "./AllNews.css";
+
 import Slider from "react-slick";
-import { lifestyle } from "../../../../dummyData";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { popular } from "../../../../dummyData";
 import Heading from "../../../common/heading/Heading";
 
-import "../NewsFeature/ppost.css";
-//copy ppost code
-const Life = () => {
+const Popular = () => {
   const settings = {
-    dots: false,
+    className: "center",
+    centerMode: false,
     infinite: true,
+    centerPadding: "0",
+    slidesToShow: 2,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
+    rows: 4,
+    slidesPerRow: 1,
     responsive: [
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
+          rows: 4,
         },
       },
     ],
   };
   return (
     <>
-      <section className="popularPost life">
-        <Heading title="Comment" />
+      <section className="popular">
+        <Heading title="All News" />
         <div className="content">
           <Slider {...settings}>
-            {lifestyle.map((val) => {
+            {popular.map((val) => {
               return (
                 <div className="items">
                   <div className="box shadow">
-                    <div className="images">
+                    <div className="images row">
                       <div className="img">
                         <img src={val.cover} alt="" />
                       </div>
                       <div class="category category1">
-                        <span>{val.catgeory}</span>
+                        <span className="cat">{val.catgeory}</span>
                       </div>
                     </div>
-                    <div className="text">
-                      <h1 className="title">{val.title.slice(0, 40)}...</h1>
-                      <div className="date">
+                    <div className="text row">
+                      <h1 className="title">{val.title.slice(0, 100)}</h1>
+                      {/* <div className="date">
                         <i class="fas fa-calendar-days"></i>
                         <label>{val.date}</label>
                       </div>
+                      <div className="comment">
+                        <i class="fas fa-comments"></i>
+                        <label>{val.comments}</label>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -58,4 +68,4 @@ const Life = () => {
   );
 };
 
-export default Life;
+export default Popular;

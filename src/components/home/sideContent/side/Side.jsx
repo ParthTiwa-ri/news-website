@@ -2,9 +2,8 @@ import React from "react";
 import "./side.css";
 import Slider from "react-slick";
 import Heading from "../../../common/heading/Heading";
-import { gallery } from "../../../../dummyData";
-import Tpost from "../Tpost/Tpost";
-import SocialMedia from "../social/SocialMedia";
+
+import Tpost from "../Fivemin/Fivemin";
 
 //const allCat = [...new Set(popular.map((curEle) => curEle.catgeory))]
 //console.log(allCat)

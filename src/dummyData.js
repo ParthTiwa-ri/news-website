@@ -5,8 +5,7 @@ export const hero = [
     catgeory: "featured",
     title:
       "Rishi Sunak: I inherited ‘worst hospital pass’ for a new PM in decades",
-    authorName: " Politics.co.uk staff",
-    authorImg: "../images/author.jpg",
+
     time: "5 Jun - 2022",
     desc: [
       {
@@ -51,8 +50,7 @@ export const hero = [
     title:
       "Sunak’s moment of maximum danger may still await — the Reform-Conservative crossover",
     authorName: "Politics.co.uk staff",
-    authorImg: "../images/author.jpg",
-    time: "12 Aug - 2022",
+
     desc: [
       {
         para1:
@@ -177,52 +175,6 @@ export const hero = [
           "In an ideal world this website wouldn’t exist, a client would acknowledge the importance of having web copy before the design starts. Needless to say it’s very important, content is king and people are beginning to understand that. However, back over in reality some project schedules and budgets don’t allow for web copy to be written before the design phase, this is sad but true.",
       },
     ],
-  },
-];
-export const world = [
-  {
-    id: 1,
-    cover: "../images/world/world1.jpg",
-    catgeory: "",
-    title: "Stepping back does make Sussex safer and at peace ",
-    authorName: "Salman",
-    time: "5 Jun - 2022",
-  },
-  {
-    id: 2,
-    cover: "../images/world/world2.jpg",
-    catgeory: "",
-    title: "Renewable energy dead as industry waits for Policy ",
-    authorName: "Salman",
-    time: "5 Jun - 2022",
-    desct:
-      "If rather, him the would treble-range wild any long of policy waved preparations disguised first initial that commitment had my in for spirits gradual solitary I for his absolutely with it and I to unable follow the to as every it the control and a of thinks the what's help days, with and paint, series at window and could we've offer, hard with king either written dry be are of princesses. We’re here to help, we’ve written examples of web copy for over 40 industries for you to use at concept phase of your projects to bring a little life and realism to your designs and help you think about who and what you are designing for. We want clients and designers alike to think about their design and how it will work with the web copy, we want you think about how numbers, symbols and bullet points will look. Sure, it's easier to just run down the forms and fill the fields with garbage in order to plow through them quickly. But that's not real. That's not what your customers are going to do. Is it really smart to take a shortcut when customers are forced to take the long road? When you just enter fake copy in rapid-fire fashion, you don't know what it really feels like to fill out that form. Do as your customers do and you'll understand them better. When you understand them better, and feel what they feel, you'll build a better interface.",
-    descb:
-      "We work with clients big and small across a range of sectors and we utilise all forms of media to get your name out there in a way that’s right for you. We believe that analysis of your company and your customers is key in responding effectively to your promotional needs and we will work with you to fully understand your business to achieve the greatest amount of publicity possible so that you can see a return from the advertising. We have a number of different teams within our agency that specialise in different areas of business so you can be sure that you won’t receive a generic service and although we can’t boast years and years of service we can ensure you that is a good thing in this industry. Our teams are up to date with the latest technologies, media trends and are keen to prove themselves in this industry and that’s what you want from an advertising agency, not someone who is relying on the same way of doing things that worked 10 years, 5 years or even a year ago. Scarfs, still not this no with explains it me and option on the any options roasted when I and state can that an don't subjective of has his take on and in from royal everything took raising our have behind success you the mechanic. And, higher by agency; In from their in and we spirit, through merely and doctor's small him sounded a all now, with that put gift white highly geared that was left back as of or logged important. A over have the large try understanding the believe. Perfected been viewer. Shreds early willingly safely what passion the. We offer a range of training packages in a range of subject areas and can offer blended learning opportunities to best meet your needs. If sitting in a room with a trainer and having the opportunity for discussion with other learners sounds good to you then we can offer this. If you have enough people wanting to attend the same course then we can run one just for you. If you prefer to study in your own time and at your own speed then one of our e learning packages may be right up your street. There is a third option, which is you like the sound of both but perhaps can’t attend all training sessions, this is when blended learning comes into its own. We work with clients big and small across a range of sectors and we utilise all forms of media to get your name out there in a way that’s right for you. We believe that analysis of your company and your customers is key in responding effectively to your promotional needs and we will work with you to fully understand your business to achieve the greatest amount of publicity possible so that you can see a return from the advertising. We have a number of different teams within our agency that specialise in different areas of business so you can be sure that you won’t receive a generic service and although we can’t boast years and years of service we can ensure you that is a good thing in this industry. Our teams are up to date with the latest technologies, media trends and are keen to prove themselves in this industry. We work with clients big and small across a range of sectors and we utilise all forms of media to get your name out there in a way that’s right for you. We believe that analysis of your company and your customers is key in responding effectively to your promotional needs and we will work with you to fully understand your business to achieve the greatest amount of publicity possible so that you can see a return from the advertising.",
-  },
-  {
-    id: 3,
-    cover: "../images/world/world3.jpg",
-    catgeory: "",
-    title: "Mount Etna erupts fashion in nice looking pictures ",
-    authorName: "Salman",
-    time: "5 Jun - 2022",
-  },
-  {
-    id: 4,
-    cover: "../images/world/world2.jpg",
-    catgeory: "",
-    title: "China asks Canada to add their full plan ",
-    authorName: "Salman",
-    time: "5 Jun - 2022",
-  },
-  {
-    id: 5,
-    cover: "../images/world/world2.jpg",
-    catgeory: "",
-    title: "Serena secures comeback win against Ivanovic",
-    authorName: "Salman",
-    time: "5 Jun - 2022",
   },
 ];
 
@@ -499,54 +451,3 @@ export const tpost = [
     cover: "../images/tpost/tp3.jpeg",
   },
 ];
-export const gallery = [
-  {
-    cover: "../images/gallery/g1.jpg",
-  },
-  {
-    cover: "../images/gallery/g2.jpg",
-  },
-  {
-    cover: "../images/gallery/g3.jpg",
-  },
-  {
-    cover: "../images/gallery/g4.jpg",
-  },
-  {
-    cover: "../images/gallery/g5.jpg",
-  },
-];
-export const discover = [
-  {
-    title: "games",
-    cover: "../images/discover/d1.jpg",
-  },
-  {
-    title: "sports",
-    cover: "../images/discover/d2.jpg",
-  },
-  {
-    title: "humour",
-    cover: "../images/discover/d3.jpg",
-  },
-  {
-    title: "gadgets",
-    cover: "../images/discover/d4.jpg",
-  },
-  {
-    title: "movies",
-    cover: "../images/discover/d5.jpg",
-  },
-  {
-    title: "nitendo",
-    cover: "../images/discover/d6.jpg",
-  },
-];
-{
-  /*<p>Busan is an amazing magazine Blogger theme that is easy to customize for your needs</p>
-  <p>Google To Boost Android Security In Few Days</p>
-  <p>Cespedes play the winning Baseball Game</p>
-  <p>US Promises to give Intel aid to locate the soldiers</p>
-
-*/
-}

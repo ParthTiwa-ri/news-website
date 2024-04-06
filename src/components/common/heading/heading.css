@@ -6,8 +6,8 @@
 }
 .heading h6 {
   font-weight: 400;
-  background: #fb4c35;
-  color: #fff;
+  background: var(--bg-aqi-1);
+  color: var(--on-bg-aqi-1);
   height: 35px;
   width: 130px;
   text-align: center;
