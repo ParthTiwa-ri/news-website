@@ -53,7 +53,7 @@ header a {
   header .navbar {
     position: absolute;
     display: block;
-    background-color: #fb4c35;
+    background-color: var(--primary);
     left: 0;
     top: 21%;
     transition: 0.5s;
