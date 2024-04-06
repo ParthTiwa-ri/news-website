@@ -1,6 +1,10 @@
 .music .box {
   margin-bottom: 30px;
   margin-left: 2px;
+  background-color: var(--surface);
+  color: var(--on-surface);
+  border-radius: 10px;
+  box-shadow: var(--shadow-1);
 }
 .music .text {
   padding: 0 30px;
@@ -13,6 +17,8 @@
   width: 320px;
   height: 220px;
   object-fit: cover;
+  border-radius: 10px 0 0 10px;
+  overflow: hidden;
 }
 .music h1 {
   font-size: 22px;

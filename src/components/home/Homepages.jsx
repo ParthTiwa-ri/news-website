@@ -1,16 +1,16 @@
-import React from "react"
-import Discover from "./discover/Discover"
-import Hero from "./hero/Hero"
-import Homes from "./mainContent/homes/Home"
+import React from "react";
+import Discover from "./discover/Discover";
+import Hero from "./hero/Hero";
+import Homes from "./mainContent/homes/Home";
 
 const Homepages = () => {
   return (
     <>
       <Hero />
       <Homes />
-      <Discover />
+      {/* <Discover /> */}
     </>
-  )
-}
+  );
+};
 
-export default Homepages
+export default Homepages;

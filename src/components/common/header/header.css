@@ -5,8 +5,8 @@
   width: 500px;
 }
 header {
-  background-color: #000;
-  color: #fff;
+  background-color: var(--surface);
+  color: var(on-surface);
 }
 header li {
   margin-right: 30px;
@@ -16,8 +16,18 @@ header li:hover {
   color: crimson;
   cursor: pointer;
 }
+#paddingCustom {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.head-side {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 10px;
+}
 header a {
-  color: #fff;
+  color: var(--on-surface);
 }
 .barIcon {
   font-size: 25px;
@@ -26,6 +36,7 @@ header a {
   display: none;
   border: none;
 }
+
 @media screen and (max-width: 768px) {
   .head .ad {
     display: none;
